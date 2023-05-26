@@ -1,0 +1,215 @@
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    background: #ebf0f7;
+}
+
+.passwordGenerated{
+    position: relative;
+}
+
+#toggleButton{
+    background: transparent;
+    color: #9b9b9b;
+    position: absolute;
+    top: 44px;
+    right: 7px;
+    cursor: pointer;
+}
+
+.signin-signup{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+     justify-content: center;
+    position: absolute;
+    top: 10px;
+    left: -1px;
+}
+
+.signup-Logo h2{
+    color: #ed017f;
+}
+
+.signup-Logo img{
+    width: 20%;
+}
+
+.signup-Logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signin-signup_details{
+    background: #fff;
+    margin-top: 2rem;
+    width: 390px;
+    padding: 30px 0;
+}
+
+.signin-signup_details h3{
+  font-weight: 600;
+  text-align: center;
+}
+
+.labelform{
+    padding: 20px 30px 4px;
+}
+
+h6{
+    padding: 20px 30px 4px;
+    color: #ccc;
+    font-weight: 300;
+}
+
+h6 a{
+    text-decoration: underline !important;
+}
+
+.labelFormAll{
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+}
+
+.labelFormAll input{
+    width: 100%;
+    border: 1px solid #f2f2f2;
+    outline: none;
+    padding: 12px;
+}
+
+.labelFormAll input:focus{
+    display: non;
+}
+.labelform form button{
+   width: 100%;
+   padding: 12px ;
+   border: none;
+   font-size: 15px;
+   outline: none;
+   background: #fba100;
+   color: #fff;
+   opacity: .9;
+   cursor: pointer;
+}
+
+.labelform form button:hover{
+   opacity: 9;
+}
+
+.underline-form{
+     color: #ccc;
+}
+
+h6 a:hover{
+    color: #ccc;
+    text-decoration: underline;
+}
+
+.alreadyHaveAnAccount{
+    padding: 20px 30px 4px;
+}
+
+.alreadyHaveAnAccount h5{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.alreadyHaveAnAccount a{
+    width: 100%;
+    font-size: 15px;
+    background: transparent;
+    padding: 12px 150px;
+    outline: none;
+    color: #ed017f;
+    opacity: .9;
+    border: 1px solid #ed017f;
+    transition: .4s ease-in-out;
+}
+
+.alreadyHaveAnAccount a:hover{
+    opacity: 9;
+    background: #ed017f;
+    color: #fff;
+}
+
+/* Sign-in */
+.loginGoggle{
+    padding: 12px 30px;
+}
+
+.loginGoggle a img{
+    width: 29%;
+}
+
+.loginGoggle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: .0625rem solid #4285fa;
+    color: #4285fa;
+}
+
+.hr hr{
+    width: 50%;
+    margin-top: 2px;
+}
+
+.hr{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+.hr p{
+    background-color: #fff;
+    border: .0625rem solid #e8e8e8;
+    border-radius: 50%;
+    color: #9b9b9b;
+    display: inline-block;
+    font-size: .6875rem;
+    padding: .3125rem;
+    position: relative;
+    z-index: 99;
+}
+
+.PasswordForgotten{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.PasswordForgotten a{
+    color: #94004f;
+    text-decoration: underline !important;
+    font-weight: 200;
+}
+
+/* Forgot Password */
+.forgotPasswordDetails{
+     background: #ccc;
+     padding: 10px 20px;
+}
+.forgotPasswordDetails p{
+    text-align: center;
+    font-weight: 300;
+}
+
+.forgot{
+    padding: 20px 30px 4px;
+}
+
+.forgotAll{
+    margin-top: 60px;
+}
