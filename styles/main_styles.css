@@ -562,7 +562,7 @@ section
 {
 	display: block;
 	position: relative;
-	width: calc((100% - 50px) * 0.601);
+	width: 100%;
 	height: 100%;
 	line-height: 50px;
 	border: none !important;
@@ -646,7 +646,7 @@ section
 	display: inline-block;
 	font-size: 16px;
 	font-weight: 300;
-	color: #a3a3a3;
+	color: #fff;
 	line-height: 48px;
 	cursor: pointer;
 }
@@ -1305,6 +1305,7 @@ select option
 	box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
 	border: solid 1px #e8e8e8;
 	padding-left: 36px;
+	background: #fff !important;
 }
 .char_icon
 {
@@ -1403,7 +1404,7 @@ select option
 {
 	font-size: 24px;
 	font-weight: 500;
-	color: #fba100;
+	color: #df3b3b;
 }
 .available
 {
@@ -1445,7 +1446,7 @@ select option
 	left: 0;
 	height: 100%;
 	border-radius: 5px;
-	background: #ed017f;
+	background: #0e8ce4;
 }
 .deals_timer
 {
@@ -1547,7 +1548,7 @@ select option
 }
 .deals_slider_nav:active i
 {
-	color: #fba100;
+	color: #df3b3b;
 }
 .deals_slider_prev
 {
@@ -1619,7 +1620,7 @@ select option
 	left: 0;
 	width: 80px;
 	height: 2px;
-	background: #ed017f;
+	background: #0e8ce4;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -1701,7 +1702,7 @@ select option
 }
 .product_price.discount
 {
-	color: #fba100;
+	color: #df3b3b;
 }
 .product_price span
 {
@@ -1734,7 +1735,7 @@ select option
 }
 .product_name div a:hover
 {
-	color: #ed017f;
+	color: #0e8ce4;
 }
 .product_color
 {
@@ -1809,7 +1810,7 @@ select option
 	opacity: 0;
 	width: 100%;
 	height: 48px;
-	background: #ed017f;
+	background: #0e8ce4;
 	border: none;
 	outline: none;
 	font-size: 18px;
@@ -1866,11 +1867,11 @@ select option
 }
 .featured_slider .slick-dots li:hover
 {
-	background: #ed017f;
+	background: #0e8ce4;
 }
 .featured_slider .slick-dots li.slick-active
 {
-	background: #ed017f;
+	background: #0e8ce4;
 }
 .featured_slider .slick-dots li:last-child
 {
@@ -1986,14 +1987,14 @@ select option
 .product_new
 {
 	display: none;
-	background: #ed017f;
+	background: #0e8ce4;
 	visibility: hidden;
 	opacity: 0;
 }
 .product_discount
 {
 	display: none;
-	background: #fba100;
+	background: #df3b3b;
 	visibility: hidden;
 	opacity: 0;
 }
@@ -2064,7 +2065,7 @@ select option
 	font-size: 10px;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
-	color: #ed017f;
+	color: #0e8ce4;
 }
 .popular_category
 {
