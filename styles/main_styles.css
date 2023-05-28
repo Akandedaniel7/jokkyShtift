@@ -612,6 +612,7 @@ section
 	height: 50px;
 	float: left;
 	padding-left: 26px;
+	display: none;
 }
 .custom_dropdown::before
 {
@@ -643,7 +644,7 @@ section
 }
 .custom_dropdown_placeholder
 {
-	display: inline-block;
+	display: none;
 	font-size: 16px;
 	font-weight: 300;
 	color: #fff;
@@ -1289,6 +1290,10 @@ select option
 	z-index: 0;
 }
 
+/* .bannerAll{
+	display: flex;
+} */
+
 /*********************************
 5. Characteristics
 *********************************/
@@ -1404,7 +1409,7 @@ select option
 {
 	font-size: 24px;
 	font-weight: 500;
-	color: #df3b3b;
+	color: #ed017f;
 }
 .available
 {
@@ -1446,7 +1451,7 @@ select option
 	left: 0;
 	height: 100%;
 	border-radius: 5px;
-	background: #0e8ce4;
+	background: #fba100;
 }
 .deals_timer
 {
@@ -1548,7 +1553,7 @@ select option
 }
 .deals_slider_nav:active i
 {
-	color: #df3b3b;
+	color: #ed017f;
 }
 .deals_slider_prev
 {
@@ -1620,7 +1625,7 @@ select option
 	left: 0;
 	width: 80px;
 	height: 2px;
-	background: #0e8ce4;
+	background: #fba100;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -1702,7 +1707,7 @@ select option
 }
 .product_price.discount
 {
-	color: #df3b3b;
+	color: #ed017f;
 }
 .product_price span
 {
@@ -1735,7 +1740,7 @@ select option
 }
 .product_name div a:hover
 {
-	color: #0e8ce4;
+	color: #fba100;
 }
 .product_color
 {
@@ -1810,7 +1815,7 @@ select option
 	opacity: 0;
 	width: 100%;
 	height: 48px;
-	background: #0e8ce4;
+	background: #fba100;
 	border: none;
 	outline: none;
 	font-size: 18px;
@@ -1867,11 +1872,11 @@ select option
 }
 .featured_slider .slick-dots li:hover
 {
-	background: #0e8ce4;
+	background: #fba100;
 }
 .featured_slider .slick-dots li.slick-active
 {
-	background: #0e8ce4;
+	background: #fba100;
 }
 .featured_slider .slick-dots li:last-child
 {
@@ -1987,14 +1992,14 @@ select option
 .product_new
 {
 	display: none;
-	background: #0e8ce4;
+	background: #fba100;
 	visibility: hidden;
 	opacity: 0;
 }
 .product_discount
 {
 	display: none;
-	background: #df3b3b;
+	background: #ed017f;
 	visibility: hidden;
 	opacity: 0;
 }
@@ -2065,7 +2070,7 @@ select option
 	font-size: 10px;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
-	color: #0e8ce4;
+	color: #fba100;
 }
 .popular_category
 {
@@ -2761,7 +2766,6 @@ select option
 	width: 100%;
 	padding-top: 80px;
 	padding-bottom: 80px;
-	background: #ed017f;
 }
 .advert
 {
@@ -2769,6 +2773,7 @@ select option
 	height: 180px;
 	border: solid 1px #e8e8e8;
 	box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
+	background: #ed017f;
 }
 .advert_content
 {
@@ -2782,9 +2787,11 @@ select option
 }
 .advert_title a
 {
-	font-size: 18px;
-	font-weight: 500;
-	color: #000000;
+	font-size: 12px;
+    font-weight: 300;
+    background-color: #fba100;
+    color: #fff;
+   padding: 10px 15px;
 }
 .advert_title a:hover
 {
@@ -2802,8 +2809,9 @@ select option
 }
 .advert_text
 {
-	color: #828282;
-	margin-top: 10px;
+	color: #fff;
+	margin-top: -10px;
+	margin-bottom: 14px;
 }
 .advert_image
 {
@@ -2816,6 +2824,12 @@ select option
 	max-width: 100%;
 }
 
+@media all and (min-width: 930px) {
+  .advert_col{
+	flex: 30px !important;
+	max-width: 60.3333% !important;
+  }
+}
 /*********************************
 12. Trends
 *********************************/
@@ -3526,7 +3540,7 @@ select option
 }
 .newsletter_unsubscribe_link a:hover
 {
-	color: #0d82d3;
+	color: #df3b3b;
 }
 
 /*********************************
